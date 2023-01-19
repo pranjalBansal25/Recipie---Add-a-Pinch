@@ -1,1 +1,1 @@
-# Recipie---Add-a-Pinch
+This is Recipie website where user can find some recipie. 
