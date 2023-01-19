@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: black;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: black;
+}
+
+.link-group {
+    list-style: none;
+    display: flex;
+}
+
+.link a {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover,
+.link.active a {
+    opacity: 1;
+}
+
+
+
+
+
+/* contact section */
+
+
+.contact-section{
+    position: relative;
+    top: 0;
+    transition: 1s;
+    padding: 100px 150px;
+    height: 100vh;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    height: 40px;
+    background: 
+    Grey;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+::placeholder{
+    color: #fff;
+}
+
+#msg{
+    height: 280px;
+    resize: none;
+    font-family: sans-serif;
+    padding: 16px;
+}
+
+#email,
+#name {
+    padding-left: 16px;
+}
+.form-submit-btn{
+    background: #fefcf3;
+    color: #222222;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+    padding: 0.25rem 0rem 0.25rem 0.5rem;
+    font-size:  14px;
+}
+
+.icon i{
+    color: rgb(141, 164, 241);
+} 
+
+.main-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+
+.social-media {
+    padding: 3 rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+ }
+
+
+
+  
